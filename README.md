@@ -1,4 +1,4 @@
-# Word_List_Generator
+# Wordlist Generator
 (For pentesting purposes)
 
 
