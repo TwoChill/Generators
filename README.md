@@ -6,11 +6,11 @@
 ## Getting Started
 
 Get the file by cloning the repro:
-* Run ``` git clone http:// ***.git ```
+* Run ``` git clone http://https://github.com/MdeFrance/Generators.git ```
 
 # Wordlist Generator
-
-* Run ``` (YOUR PATCH)/ *** .py
+Get files localy:
+* Run ```(YOUR PATCH)/Wordlist_generator.py```
 
 ### Prerequisites
 
