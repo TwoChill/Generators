@@ -41,12 +41,14 @@ Progress bar module named: TQDM
 ```
 [+] Please Enter Here All Characters For Combination :> qwerty
 ```
+
 2. Enter here min/max lengh of words:
 ```
 [+] Please Enter Minimum Lenth Of Words  :>  2
 
 [+] Please Enter Maximum Lenth Of Words  :>  6
 ```
+
 3. Enter here sequental character exclution
 
 (If you want to skip lines with certain sequental characters in them)
@@ -55,7 +57,7 @@ Progress bar module named: TQDM
 ```
 Example:
 ```
-1. ('q','q','q','q') = 4 sequental characters --> EXCLUDED
+1. ('q','q','q','q') = 4 sequental characters --> EXCLUDED 
 2. ('q','q','q','w') = 3 sequental characters --> EXCLUDED
 3. ('q','q','q','e') = 3 sequental characters --> EXCLUDED
 4. ('q','q','q','r') = 3 sequental characters --> EXCLUDED
@@ -65,9 +67,45 @@ Example:
 8. ('q','q','w','r') = 2 sequental characters
 ```
 
-4.
-5.
+4.Enter path and filename of wordlist file (Incl. your file extention)
+```
+[+] Please Enter Name Of Wordlist File :> test.txt
+```
 
+5. Press Enter/Return to start the generator
+```
+[+] Numbers Of Total Lines :  50826
+
+
+[+] Are You Ready ?	[Press Enter]
+```
+
+6. ```++++++++++++++++++++++++ Please Wait ++++++++++++++++++++++++
+
+
+100%|█████████████████████████████████| 50826/50826 [00:00<00:00, 109521.63it/s]
+
+	Done Sucessfully
+
+++++++++++++++++++++++++ Process Report ++++++++++++++++++++++++
+
+	 [+] Process Started                      :    Mon Sep  2 15:02:41 2019
+	 [+] Process Completed                    :    Mon Sep  2 15:02:42 2019
+	 [+] Total Time Consumed                  :    0.7232437133789062 second
+	 [+] Rate Of Words Generating Per Seconds :    70275.06642615273
+
++++++++++++++++++++++++++ Please Wait +++++++++++++++++++++++++
+
+
+	***************************************************
+	*       Successfully created thanks for using     *
+	***************************************************
+
+
+
+
+[*] Press Enter For Exit
+```
 
 ### Break down into end to end tests
 
