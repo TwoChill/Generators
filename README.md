@@ -1,9 +1,11 @@
 # Wordlist Generator
-!!!!The Function (line 46) **tline(k, n, chrs, v)** loops and counts through each iteration. !!!! 
-!!! *This is not efficient for very large numbers*					      !!!
-!! The final number is used to correctly display the progress bar.                             !!
-!  This function should be replaced by a "simple" mathmatical equation.                         !
-   [Math Answer on Reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x)
+
+The Function (line 46) **tline(k, n, chrs, v)** loops and counts through each iteration.
+*This is not efficient for very large numbers*
+The final number is used to correctly display the progress bar.
+This function should be replaced by a "simple" mathmatical equation.
+
+### [Math Answer on Reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x)
 
 ## Getting Started
 
