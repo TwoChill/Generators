@@ -1,6 +1,4 @@
 # Wordlist Generator
-(For pentesting purposes)
-
 
 
 ## Getting Started
