@@ -8,17 +8,21 @@
 Get the file by cloning the repro:
 * Run ``` git clone http://https://github.com/MdeFrance/Generators.git ```
 
+
 # Wordlist Generator
-Get files localy:
+
+To run the script:
 * Run ```(YOUR PATCH)/Wordlist_generator.py```
+
 
 ### Prerequisites
 
 Progress bar module named: TQDM
 
-### Installing
 
-* Run ``` pip install tqdm ``` to install the module.
+### Installing
+To install the progress bar module (TQDM)
+* Run ``` pip install tqdm ``` 
 
 
 ## Using the generator
