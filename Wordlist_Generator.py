@@ -2,7 +2,7 @@ import itertools
 import sys
 import time
 
-from tqdm.auto import tqdm
+from tqdm.auto import tqdm  # pip install tqdm
 
 info = '''
 
@@ -44,18 +44,13 @@ zt = input("\n[+] Please Enter Name Of Wordlist File :> ")
 
 
 def tline(k, n, chrs, v):
-
-    """ This function returns the correct number of lines. Used for TQDM progress bar.
-    Using math to calculate the correct number of lines (incl. exclude sequental characters)
-    would be a more efficient and logical way to use this script. """
-
     tline = 0
     for i in range(k, n):
         for xs in itertools.product(chrs, repeat=i):
             if v > 0:
                 cnts = [sum(1 for i in grp[1])
                         for grp in itertools.groupby(xs)]
-                if max(cnts) > v:
+                if max(cnts) >= v:
                     continue
                 tline += 1
             else:
@@ -63,8 +58,8 @@ def tline(k, n, chrs, v):
     return tline
 
 
-print("[+] Numbers Of Total Lines : ", tline(k, n, chrs, v))
-input('[+] Are You Ready ?[Press Enter]')
+print("\n[+] Numbers Of Total Lines : ", tline(k, n, chrs, v))
+input('\n\n[+] Are You Ready ?\t[Press Enter]')
 
 
 print('\n\n++++++++++++++++++++++++ Please Wait ++++++++++++++++++++++++\n\n')
@@ -84,8 +79,7 @@ for i in range(k, n):
         if v > 0:
             cnts = [sum(1 for i in grp[1])
                     for grp in itertools.groupby(xs)]
-            if max(cnts) > v:
-                loop.update()
+            if max(cnts) >= v:
                 continue
             loop.update()
             psd.write(''.join(xs) + '\n')
@@ -95,7 +89,7 @@ for i in range(k, n):
 psd.close()
 loop.close()
 
-sys.stdout.write("\r\tDone Sucessfully")
+sys.stdout.write("\r\n\tDone Sucessfully")
 
 
 print('\n\n++++++++++++++++++++++++ Process Report ++++++++++++++++++++++++\n')
