@@ -1,10 +1,15 @@
 # Wordlist Generator
 On line 46 **tline(k, n, chrs, v)** function loops and counts through each iteration.
-*This is not an efficient way for very large numbers*
-The final number is used to correctly display the progress bar.
-This function should be replaced by a "simple" mathmatical equation which has been explaind in this reddit form
 
-### [Math Answer on Reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x)
+*This is not an efficient way for very large numbers!*
+
+Without the correct number of outputted lines, the progress bar doesn't show a progressbar.
+
+This function should be replaced by a "simple" mathmatical equation which has been explained [here on reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x).
+
+What makes this equation hard is the *sequential excusion rule* I buildt in this verion of Suraj Singh original generator.
+
+
 
 ## Getting Started
 
