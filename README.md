@@ -89,9 +89,7 @@ Press Enter/Return to start the generator
 
 ## Author
 
-* **MdeFrance** * - *Initial work* - [MdeFrance](https://github.com/MdeFrance)
-
-				     [TwoChill](https://github.com/TwoChill)
+* **MdeFrance** * - *Initial work* - [MdeFrance](https://github.com/MdeFrance) // [TwoChill](https://github.com/TwoChill)
 
 ## Acknowledgments
 
