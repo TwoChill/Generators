@@ -2,7 +2,8 @@ import itertools
 import sys
 import time
 
-from tqdm.auto import tqdm  # pip install tqdm
+ # pip install tqdm
+from tqdm.auto import tqdm
 
 info = '''
 
@@ -42,8 +43,9 @@ v = int(input("\n[+] Please Enter Sequential Charachter Exclution :> "))
 
 zt = input("\n[+] Please Enter Name Of Wordlist File :> ")
 
-
+# This function is 'quick fix' to find out the correct iterations of tline
 def tline(k, n, chrs, v):
+  """ Returns the correct tline number. Including 'exclude sequental characters'."""
     tline = 0
     for i in range(k, n):
         for xs in itertools.product(chrs, repeat=i):
