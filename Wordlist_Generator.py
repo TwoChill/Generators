@@ -60,7 +60,6 @@ def tline(k, n, chrs, v):
     return tline
 
 
-print("\n[+] Numbers Of Total Lines : ", tline(k, n, chrs, v))
 input('\n\n[+] Are You Ready ?\t[Press Enter]')
 
 
@@ -70,6 +69,7 @@ print('\n\n++++++++++++++++++++++++ Please Wait ++++++++++++++++++++++++\n\n')
 time1 = time.asctime()
 start = time.time()
 
+# If tline function needs to iterate over a lot of iterations, this will take a while ...
 loop = tqdm(total=tline(k, n, chrs, v), position=0)
 
 psd = open(zt, 'a')
