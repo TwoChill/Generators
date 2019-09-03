@@ -1,9 +1,9 @@
 # Wordlist Generator
 On line 46 **tline(k, n, chrs, v)** function loops and counts through each iteration.
 
-*This is not an efficient way for very large numbers!*
+*This is not an efficient way for very large numbers!* (!!!Bigger then 6-8 characters long!!!)
 
-Without the correct number of outputted lines, the progress bar doesn't show a progressbar.
+Without the correct number of executed lines, the progress bar no longer shows its progress bar.
 
 This function should be replaced by a "simple" mathmatical equation which has been explained [here on reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x).
 
