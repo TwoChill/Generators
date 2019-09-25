@@ -1,13 +1,11 @@
 # Wordlist Generator
-On line 46 **tline(k, n, chrs, v)** function loops and counts through each iteration.
+## I'm Stuck
 
-*This is not an efficient way for very large numbers!* (!!!Bigger then 6-8 characters long!!!)
+The maximum number (tline) of TQDM should be correctly calculated no matter what input is given into this generator.
 
-Without the correct number of executed lines, the progress bar no longer shows its progress bar.
+The function on line 35 -46 should be replaced by a "simple" mathmatical equation which has been explained [here on reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x).
 
-This function should be replaced by a "simple" mathmatical equation which has been explained [here on reddit](https://www.reddit.com/r/askmath/comments/cslrbd/im_trying_to_find_an_equation_where_i_can_exclude/exfnpmk?utm_source=share&utm_medium=web2x).
-
-What makes this equation hard is the *sequential excusion rule* I buildt in this verion of Suraj Singh original generator.
+What makes this equation hard is the *sequential excusion rule* I buildt in this verion of Suraj Singh original word generator.
 
 
 
